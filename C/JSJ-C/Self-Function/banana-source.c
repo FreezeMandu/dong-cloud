@@ -16,16 +16,50 @@
 //	printf("3명 나이 평균: %.1lf", avg);
 //}
 
-//input, output, avg 함수 선언! main에서는 초기 변수와 실행 담당
+//input, output, avg 함수 선언! main에서는 실행 담당
+void Input2(int, int), Output(int, double);
+int NumInput(int);
+double Avg(double), avg = 0, to = 0;
+int num[] = {0}, i, anum = 0;
 
 int main(void) {
-	int num[3];
-	int to = 0;
-	double avg;
 
-	Input(num[3]);
+	NumInput(anum);
+	Input2(num[anum], anum);
+	Avg(num[anum]);
+	Output(anum, avg);
 }
 
-void Input(num[3]) {
+int NumInput(int anum) {
+	printf("몇 개의 숫자를 입력하시겠습니까? (최대 10개) : ");
+	scanf_s("%d", &anum);
+	printf("\n%d 입력했습니다.", anum); //log
+	return anum;
+}
 
+void Input2(int num[], int anum) {
+
+	printf("\n\n숫자 %d개 입력: ", anum);
+	if (anum <= 10) { //스파게티 코드의 for 안전장치
+		for (i = 0; i < anum; i++) {
+			scanf_s("%d", &num[i]);
+		}
+	}
+	else {
+		printf("Input2 함수 오류!");
+	}
+}
+
+
+double Avg(double avg) {
+	for (i = 0; i < anum; i++) {
+		to += num[i];
+	}
+	avg = to / anum;
+	return avg;
+	printf("\nAvg 함수 실행됨"); //log
+}
+
+void Output(int anum, double avg) {
+	printf("\n숫자 %d개의 평균은 %.1lf입니다.", anum, avg);
 }
