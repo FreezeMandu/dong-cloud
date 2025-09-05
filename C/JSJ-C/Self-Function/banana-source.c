@@ -4,14 +4,14 @@
 void Input2(int, int), Output(int, double);
 int NumInput(int);
 double Avg(int), avg = 0, to = 0;
-int num[10], i, anum = 0;
+int num[10], anum = 0;
 int* p_num = 0;
 
 int main(void) {
 
 	anum = NumInput(anum);
 	Input2(num[anum], anum);
-	p_num = &num[10]; //void형 함수에서 값을 반환받기 위함.
+	p_num = &num[anum]; //void형 함수에서 값을 반환받기 위함.
 	Avg(*p_num);
 	Output(anum, avg);
 }
@@ -27,21 +27,20 @@ void Input2(int num[10], int anum) {
 	printf("\n[Input2] %d 입력받았습니다.", anum); //log
 	printf("\n\n숫자 %d개 입력: ", anum);
 	if (anum <= 10) { //스파게티 코드의 for 안전장치
-		for (i = 0; i < anum; i++) {
+		for (int i = 0; i < anum; i++) {
 			scanf_s("%d", &num[i]);
 		}
 	}
 	else {
 		printf("[Input2] 함수 오류!"); //log
 	}
-	return num[10];
-}
+}//동적 melloc 참고
 
 
 double Avg(int num[10]) {
 	printf("\n[Avg] 함수 실행됨"); //log
 	if (anum <= 10) {
-		for (i = 0; i < anum; i++) {
+		for (int i = 0; i < anum; i++) {
 			to += num[i];
 		}
 	}
