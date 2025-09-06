@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Tomato-Source.c" />
+    <ClCompile Include="FriedRice.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -27,7 +27,7 @@
     <ProjectGuid>{098d620c-0436-4922-8105-13b07c36e63f}</ProjectGuid>
     <RootNamespace>JSJC</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>JSJ-Array</ProjectName>
+    <ProjectName>JSJ-FriedRice</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

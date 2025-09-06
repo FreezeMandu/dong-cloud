@@ -1,5 +1,2 @@
 ﻿  banana-source.c
-D:\dong-cloud\C\JSJ-C\Self-Function\banana-source.c(26,17): warning C4028: 정식 매개 변수 1이(가) 선언과 다릅니다.
-D:\dong-cloud\C\JSJ-C\Self-Function\banana-source.c(37,2): warning C4098: 'Input2': 'void' 함수에서 값을 반환하고 있습니다.
-D:\dong-cloud\C\JSJ-C\Self-Function\banana-source.c(41,16): warning C4028: 정식 매개 변수 1이(가) 선언과 다릅니다.
   Self-Function.vcxproj -> D:\dong-cloud\C\JSJ-C\x64\Debug\Self-Function.exe
