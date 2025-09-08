@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JSJ-Array", "JSJ-C\JSJ-C.vcxproj", "{098D620C-0436-4922-8105-13B07C36E63F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JSJ-FriedRice", "JSJ-C\JSJ-C.vcxproj", "{098D620C-0436-4922-8105-13B07C36E63F}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Self-Function", "Self-Function\Self-Function.vcxproj", "{FDD340F1-85B8-4279-9DD0-1C7D6D8B5E4C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Self-Recycle", "Self-null\Self-null.vcxproj", "{EC7BAF3C-7054-4A52-ABCD-AC8DA384EEB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,14 @@ Global
 		{FDD340F1-85B8-4279-9DD0-1C7D6D8B5E4C}.Release|x64.Build.0 = Release|x64
 		{FDD340F1-85B8-4279-9DD0-1C7D6D8B5E4C}.Release|x86.ActiveCfg = Release|Win32
 		{FDD340F1-85B8-4279-9DD0-1C7D6D8B5E4C}.Release|x86.Build.0 = Release|Win32
+		{EC7BAF3C-7054-4A52-ABCD-AC8DA384EEB6}.Debug|x64.ActiveCfg = Debug|x64
+		{EC7BAF3C-7054-4A52-ABCD-AC8DA384EEB6}.Debug|x64.Build.0 = Debug|x64
+		{EC7BAF3C-7054-4A52-ABCD-AC8DA384EEB6}.Debug|x86.ActiveCfg = Debug|Win32
+		{EC7BAF3C-7054-4A52-ABCD-AC8DA384EEB6}.Debug|x86.Build.0 = Debug|Win32
+		{EC7BAF3C-7054-4A52-ABCD-AC8DA384EEB6}.Release|x64.ActiveCfg = Release|x64
+		{EC7BAF3C-7054-4A52-ABCD-AC8DA384EEB6}.Release|x64.Build.0 = Release|x64
+		{EC7BAF3C-7054-4A52-ABCD-AC8DA384EEB6}.Release|x86.ActiveCfg = Release|Win32
+		{EC7BAF3C-7054-4A52-ABCD-AC8DA384EEB6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
