@@ -1,12 +1,38 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\dong-cloud\\C\\JSJ-C\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC7BAF3C-7054-4A52-ABCD-AC8DA384EEB6}|Self-null\\Self-null.vcxproj|D:\\dong-cloud\\C\\JSJ-C\\Self-null\\trash.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EC7BAF3C-7054-4A52-ABCD-AC8DA384EEB6}|Self-null\\Self-null.vcxproj|solutionrelative:Self-null\\trash.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "trash.c",
+              "DocumentMoniker": "D:\\dong-cloud\\C\\JSJ-C\\Self-null\\trash.c",
+              "RelativeDocumentMoniker": "Self-null\\trash.c",
+              "ToolTip": "D:\\dong-cloud\\C\\JSJ-C\\Self-null\\trash.c",
+              "RelativeToolTip": "Self-null\\trash.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-09-09T09:21:30.89Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

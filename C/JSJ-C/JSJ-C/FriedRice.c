@@ -1,21 +1,70 @@
 #include <stdio.h>
 
-//함수+배열(포인터) 간단 예제
-int Ba(int num[]);
+//배열요소 비교 예제, 함수 베이스
+//void Input(double num[], int n);
+//double Calc(double num[], int n);
+//
+//int main(void) {
+//	double num[5];
+//
+//	printf("값 5개 입력: ");
+//
+//	Input(num, 5);
+//	double max = Calc(num, 5);
+//
+//	printf("가장 큰 값: %.1lf", max);
+//}
+//
+//void Input(double num[], int n) {
+//	for (int i = 0; i < n; i++) {
+//		scanf_s("%lf", &num[i]);
+//	}
+//}
+//
+//double Calc(double num[], int n) {
+//	int max = num[0];
+//	for (int i = 0; i < n; i++) {
+//		if (max < num[i]) max = num[i];
+//	}
+//	return max;
+//}
 
-int main(void) {
-	int num[1];
-	num[0] = 5;
 
-	int re = Ba(num);
-	printf("결과: %d", re);
-}
+//배열요소 비교 예제
+//int num[5];
+//int max;
+//
+//int main(void) {
+//	printf("값 5개 입력: ");
+//
+//	for (int i = 0; i < 5; i++) {
+//		scanf_s("%d", &num[i]);
+//	}
+//	max = num[0];
+//
+//	for (int i = 1; i < 5; i++) {
+//		if (max < num[i]) max = num[i];
+//	}
+//
+//	printf("가장 큰 값은: %d", max);
+//}
 
-int Ba(int num[]) {
-	printf("num 값: %d\n", num[0]);
-	int re = num[0] + 5;
-	return re;
-}
+//함수+배열(=포인터) 간단 예제
+//int Ba(int num[]);
+//
+//int main(void) {
+//	int num[1];
+//	num[0] = 5;
+//
+//	int re = Ba(num);
+//	printf("결과: %d", re);
+//}
+//
+//int Ba(int num[]) {
+//	printf("num 값: %d\n", num[0]);
+//	int re = num[0] + 5;
+//	return re;
+//}
 
 //함수예제2
 //int Add(int, int);
