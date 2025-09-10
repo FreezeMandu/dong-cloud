@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{fdd340f1-85b8-4279-9dd0-1c7d6d8b5e4c}</ProjectGuid>
-    <RootNamespace>SelfFunction</RootNamespace>
+    <ProjectGuid>{af4a0dcd-e51e-49bb-aedd-d84d3654ba64}</ProjectGuid>
+    <RootNamespace>JSJArray</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Self-2Array-Function</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -124,10 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="banana-jam.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="pineapple.h" />
+    <ClCompile Include="JSJ-9-10.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,51 +1,35 @@
 #include <stdio.h>
-//2중 for 문장, 각 열마다 평균 계산, 총합 계산. 2차원 배열은 세로/가로
-#define ROW 4
-#define COL 2
 
-int go [ROW][COL];
-void Input(int go[ROW][COL]);
-double Calc(int go[ROW][COL]);
-double Output();
-static double stSum = 0, ndSum = 0, finSum = 0;
+#define ROW 4
 
 int main(void) {
+	int score[ROW][3];
+	double eng = 0, math = 0, avg = 0;
+	double student[ROW];
 
-	printf("성적 8개를 입력: ");
-	Input(go);
-	Calc(go);
-	Output();
-}
+	printf("각 학생의 영어 점수와 수학 점수를 입력하세요\n");
 
-void Input(int go[ROW][COL]) {
 	for (int i = 0; i < ROW; i++) {
-		for (int j = 0; j < COL; j++) {
-			scanf_s("%d", &go[i][j]);
-		}
+		score[i][0] = i + 1;
 	}
-}
 
-double Calc(int go[ROW][COL]) {
 	for (int i = 0; i < ROW; i++) {
-		for (int j = 0; j < COL; j++) {
-			finSum = go[i][j]; //finSum 계산 결과가 20이 나옴. 따라서 finSum 값을 출력하는 최종 결과가 20, 20/8이 나와버림.
-			if (j == 0) { stSum += go[i][j]; }
-			else { ndSum += go[i][j]; }
+		printf("%d번 학생의 영어 점수: ", i + 1);
+		scanf_s("%d", &score[i][1]);
+		eng += score[i][1];
+		printf("%d번 학생의 수학 점수: ", i + 1);
+		scanf_s("%d", &score[i][2]);
+		math += score[i][2];
 
-		}
+		student[i] = (score[i][1] + score[i][2]) / 2;
 	}
-	return 0;
-}
-
-double Output() {
-	printf("	중간	기말  \n");
-	printf("-------------------\n");
-	for (int i = 0; i < ROW; i++) {
-			printf("	%d", go[i][0]);
-			printf("	%d\n", go[i][1]);
-	}
-	printf("--------------------\n");
-	printf("평균:  %2.2lf   %2.2lf\n", stSum / ROW, ndSum / ROW);
-	printf("성적의 합은 %.2lf이고 평균은 %.2lf이다", finSum, finSum / (ROW * COL));
-	return 0;
+	printf("\n");
+	printf("==============================================\n");
+	printf("번호   영어   수학  학생평균\n");
+	printf("==============================================\n");
+	for (int i = 0; i < ROW; i++)
+		printf("%3d %6d %6d %7.1lf\n", score[i][0], score[i][1], score[i][2], student[i]);
+	printf("==============================================\n");
+	printf("총점: %6.1lf %6.1lf\n", eng, math);
+	printf("평균: %6.1lf %6.1lf", eng / ROW, math / ROW);
 }

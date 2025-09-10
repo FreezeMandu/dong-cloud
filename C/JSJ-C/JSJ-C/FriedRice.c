@@ -1,5 +1,22 @@
 #include <stdio.h>
 
+//2차원배열, 성적프로그램 *변형* 학생평균 추가.
+
+
+//막대그래프예제 1/2
+//int main(void) {
+//	int nums[5] = { 30,20,10,40,50 };
+//
+//	for (int i = 0; i < 5; i++) {
+//		int relay = nums[i];
+//		printf("번호[%d]의 값 %d: ", i, relay);
+//		for (int j = 1; j < relay; j++) {
+//			printf("*");
+//		}
+//		puts("");
+//	}
+//}
+
 //배열요소 비교 예제, 함수 베이스
 //void Input(double num[], int n);
 //double Calc(double num[], int n);
