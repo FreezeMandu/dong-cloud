@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EC7BAF3C-7054-4A52-ABCD-AC8DA384EEB6}|Self-null\\Self-null.vcxproj|D:\\dong-cloud\\C\\JSJ-C\\Self-null\\trash.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EC7BAF3C-7054-4A52-ABCD-AC8DA384EEB6}|Self-null\\Self-null.vcxproj|solutionrelative:Self-null\\trash.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{098D620C-0436-4922-8105-13B07C36E63F}|JSJ-C\\JSJ-C.vcxproj|D:\\dong-cloud\\C\\JSJ-C\\JSJ-C\\FriedRice.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{098D620C-0436-4922-8105-13B07C36E63F}|JSJ-C\\JSJ-C.vcxproj|solutionrelative:JSJ-C\\FriedRice.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,23 +24,10 @@
               "RelativeDocumentMoniker": "Self-null\\trash.c",
               "ToolTip": "D:\\dong-cloud\\C\\JSJ-C\\Self-null\\trash.c",
               "RelativeToolTip": "Self-null\\trash.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-09-10T11:05:18.824Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FriedRice.c",
-              "DocumentMoniker": "D:\\dong-cloud\\C\\JSJ-C\\JSJ-C\\FriedRice.c",
-              "RelativeDocumentMoniker": "JSJ-C\\FriedRice.c",
-              "ToolTip": "D:\\dong-cloud\\C\\JSJ-C\\JSJ-C\\FriedRice.c",
-              "RelativeToolTip": "JSJ-C\\FriedRice.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-09-10T11:24:31.446Z",
               "EditorCaption": ""
             }
           ]
