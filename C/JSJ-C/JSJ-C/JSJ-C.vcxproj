@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="2-3Array.c" />
     <ClCompile Include="FriedRice.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
