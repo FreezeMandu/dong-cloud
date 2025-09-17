@@ -1,46 +1,59 @@
 #include <stdio.h>
 
 //교재 404~406페이지
-#include <stdlib.h>
-#include <time.h>
-
-#define MAX 100
-
-int main(void) {
-	long sec = (long)time(NULL);
-	srand(sec);
-
-	printf("1 ~ %5d 사이의 난수 8개: \n", MAX);
-	for (int i = 0; i < 8; i++)
-		printf("%3d ", rand() % MAX + 1);
-	puts("");
-}
-
-//미완성.
-//#define ROW 2
-//#define COL 3
+//#include <stdlib.h>
+//#include <time.h>
 //
-//int num[ROW][COL];
-//void Input(int);
-//int Calc(int), Output(int);
-//
+//#define MAX 100
 //
 //int main(void) {
-//	int sum1 = 0, sum2 = 0;
-//	printf("6개의 데이터 입력 : ");
-//	Input(num);
+//	long sec = (long)time(NULL);
+//	srand(sec);
 //
-//	printf("합: %d, 평균: %.lf\n"); //Calc(), sum1, sum2
-//	printf("반복문 for를 사용하여 출력\n");
-//	Output(num);
+//	printf("1 ~ %5d 사이의 난수 8개: \n", MAX);
+//	for (int i = 0; i < 8; i++)
+//		printf("%3d ", rand() % MAX + 1);
+//	puts("");
 //}
-//
-//void Input(int arr[][COL]) {
-//	for (int i = 0; i < ROW; i++) {
-//		for (int o = 0; o < COL; o++)
-//			scanf_s("%d", arr[i][o]);
-//	}
-//}
+
+//미완성
+#define ROW 2
+#define COL 3
+
+int num[ROW][COL];
+double sum[2] = { 0 };
+void Input(), Calc(int);
+//int Output(int);
+
+
+int main(void) {
+
+	Input();
+	Calc(num);
+
+	printf("합: %d, 평균: %.2lf\n", (int)sum[0], sum[1]); //Calc(), sum[2]
+	printf("반복문 for를 사용하여 출력\n");
+	//Output(num);
+	return 0;
+}
+
+void Input() {
+	printf("6개의 데이터 입력 : ");
+	for (int i = 0; i < ROW; i++) {
+		for (int o = 0; o < COL; o++)
+			scanf_s("%d", &num[i][o]);
+	}
+}
+
+//arr에서 처리되지 않은 예외 오류 발생함
+void Calc(int arr[][COL]) {
+	printf("[Calc] ROW: %d, COL: %d", ROW, COL);
+	for (int i = 0; i < ROW; i++) {
+		for (int o = 0; o < COL; o++)
+			sum[0] += arr[i][o];
+	}
+	sum[1] = sum[0] / (ROW * COL);
+}
 
 
 

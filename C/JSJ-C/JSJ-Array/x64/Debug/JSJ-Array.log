@@ -1,0 +1,5 @@
+﻿  JSJ-9-17.c
+D:\dong-cloud\C\JSJ-C\JSJ-Array\JSJ-9-17.c(32,7): warning C4047: '함수': 'int'의 간접 참조 수준이 'int [2][3]'과(와) 다릅니다.
+D:\dong-cloud\C\JSJ-C\JSJ-Array\JSJ-9-17.c(32,7): warning C4024: 'Calc': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+D:\dong-cloud\C\JSJ-C\JSJ-Array\JSJ-9-17.c(49,15): warning C4028: 정식 매개 변수 1이(가) 선언과 다릅니다.
+  JSJ-Array.vcxproj -> D:\dong-cloud\C\JSJ-C\x64\Debug\JSJ-Array.exe
