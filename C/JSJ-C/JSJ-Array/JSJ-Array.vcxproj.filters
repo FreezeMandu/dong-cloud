@@ -18,5 +18,8 @@
     <ClCompile Include="JSJ-9-10.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="JSJ-9-17.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
